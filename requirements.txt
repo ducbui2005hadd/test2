@@ -3,5 +3,8 @@ pandas
 altair
 scikit-learn
 joblib
-
+re
+os
+zipfile
+glob
 
