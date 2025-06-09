@@ -9,9 +9,9 @@ import zipfile
 import glob
 
 # Giải nén mô hình nếu bị chia nhỏ theo định dạng .z01, .z02, ..., .zip
-model_parts_pattern = "game_rating_model_compressed.z*"
+model_parts_pattern = "game_rating_model_compressed2.z*"
 model_zip_parts = sorted(glob.glob(model_parts_pattern))
-model_zip_parts.append("game_rating_model_compressed.zip")
+model_zip_parts.append("game_rating_model_compressed2.zip")
 merged_zip_path = "game_rating_model_merged.zip"
 model_path = "game_rating_model.pkl"
 
